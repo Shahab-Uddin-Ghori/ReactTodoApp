@@ -1,10 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Nav from "./Nav";
+import TopBar from "./TopBar";
 
 const App = () => {
-  return <h1>hh</h1>;
+  return (
+    <div className="w-full h-screen bg-zinc-900 ">
+      <Nav />
+      <TopBar />
+    </div>
+  );
 };
 
 App();
